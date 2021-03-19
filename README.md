@@ -30,7 +30,7 @@ cargo build
 Start `oom-watcher-rust`.
 
 ```
-target/debug/oom-watcher-rust /sys/fs/cgroup/memory/testoom
+target/debug/oom-watcher-rust sync /sys/fs/cgroup/memory/testoom
 ```
 
 ### Trigger an OOM event
